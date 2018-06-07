@@ -1,9 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: \*.html
-    destination: C:\inetpub\wwwroot
-  - source: \*.php
+  - source: \index.html
     destination: C:\inetpub\wwwroot
 hooks:
   BeforeInstall:
