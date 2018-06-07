@@ -1,1 +1,0 @@
-git -C "C:\vineuptest\" pull --all
