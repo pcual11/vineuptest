@@ -7,5 +7,3 @@ hooks:
   BeforeInstall:
     - location: \before-install.bat
       timeout: 900
-      runas: root
- 
