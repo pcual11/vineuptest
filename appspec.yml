@@ -3,8 +3,8 @@ os: windows
 files:
   - source: \"*.html"
     destination: C:\inetpub\wwwroot
-  - source: \"*.html"
-    destination: C:\inetpub\wwwroot
+  - source: \"VineUp com home page"
+    destination: C:\inetpub\wwwroot\"VineUp com home page"
 hooks:
   BeforeInstall:
     - location: \before-install.bat
