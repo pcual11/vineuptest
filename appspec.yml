@@ -2,8 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: index.html
-    destination: C:\inetpub\wwwroot\index.html
-hooks:
+    destination: C:\inetpub\wwwroot
   BeforeInstall:
     - location: \before-install.bat
       timeout: 900
